@@ -1,0 +1,46 @@
+Student Name:   Sin-Yu Chen
+Student ID:     A59026047
+Student email:  sic030@ucsd.edu
+Simulator Memory Hierarchy:
+  I$ Configuration:
+    Size:  32 KB
+    Sets:  128
+    Assoc: 2
+Blocksize: 128 B
+    Lat:   2 Cycles
+  D$ Configuration:
+    Size:  32 KB
+    Sets:  64
+    Assoc: 4
+Blocksize: 128 B
+    Lat:   2 Cycles
+  L2$ Configuration:
+    Size:  128 KB
+    Sets:  128
+    Assoc: 8
+Blocksize: 128 B
+    Lat:   50 Cycles
+    Inclusive: No
+  Prefetch:   No
+  Memspeed:   100 Cycles
+Cache Statistics:
+  total I-cache accesses:     9846525
+  total I-cache misses:          1673
+  total I-cache penalties:     194450
+  I-cache miss rate:                0.02%
+  avg I-cache access time:          2.02 cycles
+  total D-cache accesses:    10153475
+  total D-cache misses:       1247121
+  total D-cache penalties:  182003850
+  D-cache miss rate:               12.28%
+  avg D-cache access time:         19.93 cycles
+  total L2-cache accesses:    1248794
+  total L2-cache misses:      1197586
+  total L2-cache penalties: 119758600
+  L2-cache miss rate:              95.90%
+  avg L2-cache access time:       145.90 cycles
+  total compulsory misses:          0
+  total other misses:               0
+Total Memory accesses:  20000000
+Total Memory penalties: 222198300
+avg Memory access time:         11.11 cycles
